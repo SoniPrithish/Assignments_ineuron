@@ -1,3 +1,4 @@
+#IMPORTING LIBRARIES
 import os
 import sys
 from src.logger import logging
@@ -9,13 +10,13 @@ class word_freq:
         logging.info("Coutning has been Started")
         logging.info(f"The String is{words}")
         try:
-            words=words.lower()
-            word1=words.split(" ")
+            words=words.lower() #LOWERING WORDS
+            word1=words.split(" ")#SPLITTING THE WORDS ND STORING IN DICTIONARY AND LIST TO TO COMPARE
             word = {w: 0 for w in words.split(" ")}
             for i in word1:
                 if i in words:
                     word[i]+=1
-            max_key = max(word, key=lambda k: word[k])
+            max_key = max(word, key=lambda k: word[k]) #FINDING KEY WITH MAX FREQ AND RETURNING ITS FREQUENCY AND LENGTH
             logging.info(f"Most frequent word and its length and count is {max_key} ,length is {len(max_key)},count is {max(word.values())}")
             return max(word.values()),max_key,len(max_key)
         except Exception as e:
@@ -30,7 +31,7 @@ if __name__ == "__main__":
     WF=obj.count(string)
     print(f"The most frequent word occured {WF[0]} times .The word is '{WF[1].upper()}' and its length is {WF[2]}")
     WF=obj.count(string2)
-    print(f"The most frequent word occured {WF[0]} times .The word is '{WF[1].upper()}' and its length is {WF[2]}")
+    print(f"The most frequent word occured {WF[0]} times .The word is '{WF[1].upper()}' and its length is {WF[2]}") 
 
 
 '''

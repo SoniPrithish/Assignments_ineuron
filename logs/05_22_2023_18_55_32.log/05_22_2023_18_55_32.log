@@ -1,0 +1,6 @@
+[ 2023-05-22 18:55:32,135 ] 5 root - INFO - Program Started
+[ 2023-05-22 18:55:32,135 ] 8 root - INFO - String to Check is : AABBCCARSTW
+[ 2023-05-22 18:55:32,136 ] 14 root - INFO - Count of Alphabets : {'a': 3, 'b': 2, 'c': 2, 'r': 1, 's': 1, 't': 1, 'w': 1}
+[ 2023-05-22 18:55:32,136 ] 8 root - INFO - String to Check is : SSOONNIII
+[ 2023-05-22 18:55:32,136 ] 14 root - INFO - Count of Alphabets : {'s': 2, 'o': 2, 'n': 2, 'i': 3}
+[ 2023-05-22 18:55:32,138 ] 27 root - INFO - String Valid
