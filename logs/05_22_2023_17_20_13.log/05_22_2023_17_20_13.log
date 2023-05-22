@@ -1,0 +1,7 @@
+[ 2023-05-22 17:20:14,611 ] 160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[ 2023-05-22 17:20:15,038 ] 9 root - INFO - Coutning has been Started
+[ 2023-05-22 17:20:15,038 ] 10 root - INFO - The String isApple Banana Apple Apple Banana Grapes Banana Banana Apple
+[ 2023-05-22 17:20:15,039 ] 19 root - INFO - Most frequent word and its length and count is apple ,length is 5,count is 4
+[ 2023-05-22 17:20:15,039 ] 9 root - INFO - Coutning has been Started
+[ 2023-05-22 17:20:15,039 ] 10 root - INFO - The String iswrite write write all the numbers from from from 1 to 100
+[ 2023-05-22 17:20:15,039 ] 19 root - INFO - Most frequent word and its length and count is write ,length is 5,count is 3

@@ -1,0 +1,5 @@
+[ 2023-05-22 17:05:33,130 ] 160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[ 2023-05-22 17:05:33,580 ] 9 root - INFO - Coutning has been Started
+[ 2023-05-22 17:05:33,580 ] 10 root - INFO - The String isApple Banana Apple Apple Banana Grapes Banana Banana Apple
+[ 2023-05-22 17:05:33,580 ] 19 root - INFO - Frequency of words apple banana apple apple banana grapes banana banana apple
+[ 2023-05-22 17:05:33,581 ] 20 root - INFO - Most frequent word and its length and count is apple ,length is 5,count is 4

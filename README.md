@@ -1,0 +1,1 @@
+These all are assignments give by ineuron Team for Practise and assesment of individual
