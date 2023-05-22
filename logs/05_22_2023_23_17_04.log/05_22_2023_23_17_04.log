@@ -1,0 +1,9 @@
+[ 2023-05-22 23:17:04,360 ] 160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[ 2023-05-22 23:17:04,843 ] 8 root - INFO - Program has started
+[ 2023-05-22 23:17:04,843 ] 13 root - INFO - Retrieving data from https://raw.githubusercontent.com/Biuni/PokemonGO-Pokedex/master/pokedex.json
+[ 2023-05-22 23:17:05,414 ] 17 root - INFO - Data Recieved
+[ 2023-05-22 23:17:05,415 ] 20 root - INFO - Data Frame created
+[ 2023-05-22 23:17:05,418 ] 23 root - INFO - Data Formatted
+[ 2023-05-22 23:17:05,418 ] 30 root - INFO - Data has enteres into save stage
+[ 2023-05-22 23:17:05,418 ] 33 root - INFO - File will be created as pokemon_data.xlsx
+[ 2023-05-22 23:17:05,559 ] 36 root - INFO - Data has been converted and saved to pokemon_data.xlsx
