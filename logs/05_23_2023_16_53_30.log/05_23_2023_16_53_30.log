@@ -1,0 +1,15 @@
+[ 2023-05-23 16:53:30,503 ] 160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[ 2023-05-23 16:53:30,955 ] 9 root - INFO - Program has started
+[ 2023-05-23 16:53:30,955 ] 14 root - INFO - Retrieving data from https://data.nasa.gov/resource/y77d-th95.json
+[ 2023-05-23 16:53:32,514 ] 18 root - INFO - Data Recieved
+[ 2023-05-23 16:53:32,523 ] 21 root - INFO - Data Frame created
+[ 2023-05-23 16:53:32,523 ] 22 root - INFO - Data Formatted
+[ 2023-05-23 16:53:32,541 ] 23 root - INFO - Heax of Data Frame        name   id nametype     recclass    mass  fall                     year      reclat      reclong geolocation.type geolocation.coordinates :@computed_region_cbhk_fwbd :@computed_region_nnqa_25f4
+0    Aachen    1    Valid           L5      21  Fell  1880-01-01T00:00:00.000   50.775000     6.083330            Point       [6.08333, 50.775]                         NaN                         NaN
+1    Aarhus    2    Valid           H6     720  Fell  1951-01-01T00:00:00.000   56.183330    10.233330            Point    [10.23333, 56.18333]                         NaN                         NaN
+2      Abee    6    Valid          EH4  107000  Fell  1952-01-01T00:00:00.000   54.216670  -113.000000            Point        [-113, 54.21667]                         NaN                         NaN
+3  Acapulco   10    Valid  Acapulcoite    1914  Fell  1976-01-01T00:00:00.000   16.883330   -99.900000            Point       [-99.9, 16.88333]                         NaN                         NaN
+4   Achiras  370    Valid           L6     780  Fell  1902-01-01T00:00:00.000  -33.166670   -64.950000            Point     [-64.95, -33.16667]                         NaN                         NaN
+[ 2023-05-23 16:53:32,544 ] 30 root - INFO - Data has enteres into save stage
+[ 2023-05-23 16:53:32,544 ] 33 root - INFO - File will be created as Nasa.csv
+[ 2023-05-23 16:53:32,557 ] 36 root - INFO - Data has been converted and saved to Nasa.csv

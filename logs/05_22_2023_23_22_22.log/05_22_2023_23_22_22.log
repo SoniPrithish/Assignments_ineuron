@@ -1,0 +1,5 @@
+[ 2023-05-22 23:22:22,917 ] 160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[ 2023-05-22 23:22:23,666 ] 9 root - INFO - Program has started
+[ 2023-05-22 23:22:23,666 ] 14 root - INFO - Retrieving data from https://data.nasa.gov/resource/y77d-th95.json
+[ 2023-05-22 23:22:25,576 ] 18 root - INFO - Data Recieved
+[ 2023-05-22 23:22:25,576 ] 27 root - INFO - Exception occured while formatting

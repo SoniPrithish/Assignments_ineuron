@@ -2,8 +2,8 @@ from src.logger import logging
 from src.exception import CustomException
 import pandas as pd
 import requests
-import os
 import sys
+import os
 
 class Format_Data:
     def __init__(self):
@@ -17,11 +17,9 @@ class Format_Data:
             response = requests.get(url)
             data = response.json()
             logging.info(f'Data Recieved')
-            # Extracting the pokemon data from the JSON
-            pokemon_data = data['pokemon']
+            #Create a dataframe
+            df = pd.json_normalize(data)
             logging.info(f'Data Frame created')
-            # Converting JSON data to a DataFrame
-            df = pd.json_normalize(pokemon_data)
             logging.info(f'Data Formatted')
             logging.info(f'Heax of Data Frame {df.head()}')
             return df
@@ -32,10 +30,10 @@ class Format_Data:
         try:
             logging.info(f'Data has enteres into save stage')
             # Define the output file path
-            output_file = 'pokemon_data.xlsx'
+            output_file = 'Nasa.csv'
             logging.info(f'File will be created as {output_file}')
-            # Saving the DataFrame to Excel format
-            df.to_excel(output_file, index=False)
+            # Saving the DataFrame to CSV format
+            df.to_csv(output_file, index=False)
             logging.info(f'Data has been converted and saved to {output_file}')
             print("Data has been converted and saved to", output_file)
             return "Done Successfully"
@@ -45,7 +43,7 @@ class Format_Data:
 
 if __name__ == "__main__":
      # Define the URL of the JSON data
-    url = 'https://raw.githubusercontent.com/Biuni/PokemonGO-Pokedex/master/pokedex.json'
+    url = 'https://data.nasa.gov/resource/y77d-th95.json'
     obj=Format_Data()
     df=obj.get_and_transform(url)
     obj.save_data(df)

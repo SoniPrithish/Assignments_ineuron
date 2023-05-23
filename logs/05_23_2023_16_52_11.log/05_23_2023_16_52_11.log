@@ -1,0 +1,9 @@
+[ 2023-05-23 16:52:11,959 ] 160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[ 2023-05-23 16:52:12,718 ] 9 root - INFO - Program has started
+[ 2023-05-23 16:52:12,718 ] 14 root - INFO - Retrieving data from https://data.nasa.gov/resource/y77d-th95.json
+[ 2023-05-23 16:52:14,752 ] 18 root - INFO - Data Recieved
+[ 2023-05-23 16:52:14,761 ] 21 root - INFO - Data Frame created
+[ 2023-05-23 16:52:14,761 ] 22 root - INFO - Data Formatted
+[ 2023-05-23 16:52:14,761 ] 29 root - INFO - Data has enteres into save stage
+[ 2023-05-23 16:52:14,761 ] 32 root - INFO - File will be created as Nasa.csv
+[ 2023-05-23 16:52:14,776 ] 35 root - INFO - Data has been converted and saved to Nasa.csv

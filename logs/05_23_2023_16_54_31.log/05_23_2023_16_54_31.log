@@ -1,0 +1,17 @@
+[ 2023-05-23 16:54:31,880 ] 160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[ 2023-05-23 16:54:32,353 ] 8 root - INFO - Program has started
+[ 2023-05-23 16:54:32,353 ] 13 root - INFO - Retrieving data from https://raw.githubusercontent.com/Biuni/PokemonGO-Pokedex/master/pokedex.json
+[ 2023-05-23 16:54:32,885 ] 17 root - INFO - Data Recieved
+[ 2023-05-23 16:54:32,886 ] 20 root - INFO - Data Frame created
+[ 2023-05-23 16:54:32,897 ] 23 root - INFO - Data Formatted
+[ 2023-05-23 16:54:32,932 ] 24 root - INFO - Heax of Data Frame    id  num        name  ...                    weaknesses                                     next_evolution                                     prev_evolution
+0   1  001   Bulbasaur  ...  [Fire, Ice, Flying, Psychic]  [{'num': '002', 'name': 'Ivysaur'}, {'num': '0...                                                NaN
+1   2  002     Ivysaur  ...  [Fire, Ice, Flying, Psychic]               [{'num': '003', 'name': 'Venusaur'}]              [{'num': '001', 'name': 'Bulbasaur'}]
+2   3  003    Venusaur  ...  [Fire, Ice, Flying, Psychic]                                                NaN  [{'num': '001', 'name': 'Bulbasaur'}, {'num': ...
+3   4  004  Charmander  ...         [Water, Ground, Rock]  [{'num': '005', 'name': 'Charmeleon'}, {'num':...                                                NaN
+4   5  005  Charmeleon  ...         [Water, Ground, Rock]              [{'num': '006', 'name': 'Charizard'}]             [{'num': '004', 'name': 'Charmander'}]
+
+[5 rows x 17 columns]
+[ 2023-05-23 16:54:32,934 ] 31 root - INFO - Data has enteres into save stage
+[ 2023-05-23 16:54:32,934 ] 34 root - INFO - File will be created as pokemon_data.xlsx
+[ 2023-05-23 16:54:33,201 ] 37 root - INFO - Data has been converted and saved to pokemon_data.xlsx
